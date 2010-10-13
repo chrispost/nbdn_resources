@@ -13,7 +13,7 @@
       <setting name="JiraProxyPort">0</setting>
       <setting name="livetemplates.defaultgrouping">0</setting>
       <setting name="MoveToResource.MoveSameElementsScope">0</setting>
-      <setting name="RefactoringWizardFormLocationX">0</setting>
+      <setting name="RefactoringWizardFormLocationX">2</setting>
       <setting name="RefactoringWizardFormLocationY">-176</setting>
       <setting name="SMART_BRACE_INSERT">1</setting>
       <setting name="UserInputDeferTime">300</setting>
@@ -29,6 +29,7 @@
       <setting name="HideVsMenuItems">True</setting>
       <setting name="JetBrains.ReSharper.Refactorings.Rename.RenameFile">True</setting>
       <setting name="JetBrains.ReSharper.Refactorings.Rename.SearchInStrings">True</setting>
+      <setting name="JetBrains.ReSharper.Refactorings.RenameNamespace.SearchInStrings">True</setting>
       <setting name="jetbrains.resharper.treeview.filter">True</setting>
       <setting name="JiraIsAnonymous">False</setting>
       <setting name="JiraProxyAuthentication">False</setting>
@@ -185,16 +186,6 @@
         <Variables />
         <CustomProperties />
       </Template>
-      <Template uid="9d29c398-b0b2-4b14-bc91-f3bef3ee8b67" shortcut="bddc" description="BDD Concern" text="Establish c = () =&gt;&#xD;&#xA;   $END$" reformat="True" shortenQualifiedReferences="True">
-        <Context>
-          <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
-        </Context>
-        <Categories>
-          <Category name="bdd" />
-        </Categories>
-        <Variables />
-        <CustomProperties />
-      </Template>
       <Template uid="5c50421e-629e-42be-b2e9-f4596334dec5" shortcut="ca" description="ConcernAttribute" text="[Subject(typeof($concern_type$))]" reformat="True" shortenQualifiedReferences="True">
         <Context>
           <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
@@ -260,6 +251,16 @@
         <Variables>
           <Variable name="OBSERVATION_NAME" expression="" initialRange="0" />
         </Variables>
+        <CustomProperties />
+      </Template>
+      <Template uid="9d29c398-b0b2-4b14-bc91-f3bef3ee8b67" shortcut="bddc" description="BDD Concern" text="Establish c = () =&gt;&#xD;&#xA;{&#xD;&#xA;   $END$&#xD;&#xA;};" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
+        </Context>
+        <Categories>
+          <Category name="bdd" />
+        </Categories>
+        <Variables />
         <CustomProperties />
       </Template>
     </UserTemplates>
