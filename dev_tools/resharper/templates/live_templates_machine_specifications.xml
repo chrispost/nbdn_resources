@@ -1,0 +1,60 @@
+<TemplatesExport>
+  <Template uid="ea0eba99-5802-44af-b603-44a3c3a80e9d" shortcut="bddb" description="BDD Because" text="Because b = () =&gt;&#xD;&#xA;   $END$&#xD;&#xA;" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="9d29c398-b0b2-4b14-bc91-f3bef3ee8b67" shortcut="bddc" description="BDD Concern" text="Establish c = () =&gt;&#xD;&#xA;{&#xD;&#xA;   $END$&#xD;&#xA;};" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="5c50421e-629e-42be-b2e9-f4596334dec5" shortcut="ca" description="ConcernAttribute" text="[Subject(typeof($concern_type$))]" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="concern_type" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="4e8240f1-e38e-441e-a4d7-4f60a0dbe270" shortcut="obs" description="New Observations" text="[Subject(typeof($contract_implementation$))]&#xD;&#xA;public class when_$observation_name$ : concern&#xD;&#xA;{                        &#xD;&#xA;    It $first_observation$ = ()=&gt;        &#xD;&#xA;        $END$                                        &#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="contract_implementation" expression="" initialRange="0" />
+      <Variable name="observation_name" expression="" initialRange="0" />
+      <Variable name="first_observation" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="5af06698-750b-4313-9628-b95b37706e3f" shortcut="pca" description="Provide sut with a constructor argument" text="provide_a_basic_sut_constructor_argument($arg$);$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="arg" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="b1e543b6-9d15-40fe-8349-b95ac6a91979" shortcut="tc" description="Test case" text="It $OBSERVATION_NAME$ = () =&gt;&#xD;&#xA;  $END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="OBSERVATION_NAME" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+</TemplatesExport>
