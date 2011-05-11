@@ -69,15 +69,10 @@
       <LocalVariableHidesMember>HINT</LocalVariableHidesMember>
       <FieldCanBeMadeReadOnly.Global>HINT</FieldCanBeMadeReadOnly.Global>
       <MemberCanBeMadeStatic.Global>HINT</MemberCanBeMadeStatic.Global>
-      <PossibleNullReferenceException>HINT</PossibleNullReferenceException>
     </SeverityTable>
   </HighlightingSettings>
   <MetadataViewerSettings ShowExternalAnnotations="False" ShowNonVisibleMembers="False" ShowXmlDoc="False" ReorderMembers="True" Language="CSHARP" />
-  <ExternalSourcesSettings EnableNavigation="True" FirstTimeFormShown="True">
-    <ProvidersOrder enabled="True" id="pdb" />
-    <ProvidersOrder enabled="True" id="metadata" />
-    <ProvidersOrder enabled="True" id="objectBrowser" />
-  </ExternalSourcesSettings>
+  <ExternalSourcesSettings EnableNavigation="True" FirstTimeFormShown="False" />
   <Pdb EnableDownloading="True" />
   <LiveTemplatesManager>
     <UserTemplates />
@@ -85,9 +80,9 @@
       <Changed />
     </PredefinedChanges>
     <FileTemplates>
-      <FileTemplate file="C:\Users\jp\repositories\developwithpassion\devtools\windows\resharper\templates\live_templates_developwithpassion_specifications.xml" />
       <FileTemplate file="C:\Users\jp\repositories\developwithpassion\devtools\windows\resharper\templates\live_templates_general.xml" />
       <FileTemplate file="C:\Users\jp\repositories\developwithpassion\devtools\windows\resharper\templates\live_templates_machine_specifications.xml" />
+      <FileTemplate file="C:\Users\jp\repositories\developwithpassion\devtools\windows\resharper\templates\live_templates_developwithpassion_specifications.xml" />
     </FileTemplates>
     <DisabledTemplates>
       <TemplateReference uid="b1949918-f3be-4271-859d-5fe23f749bf9" name="&lt;No Name&gt;" />
@@ -237,7 +232,6 @@
           <Item>unsafe</Item>
           <Item>volatile</Item>
         </MODIFIERS_ORDER>
-        <PLACE_SIMPLE_ANONYMOUSMETHOD_ON_SINGLE_LINE>False</PLACE_SIMPLE_ANONYMOUSMETHOD_ON_SINGLE_LINE>
         <SPACE_BEFORE_SIZEOF_PARENTHESES>False</SPACE_BEFORE_SIZEOF_PARENTHESES>
         <SPACE_BEFORE_TYPEOF_PARENTHESES>False</SPACE_BEFORE_TYPEOF_PARENTHESES>
         <STICK_COMMENT>False</STICK_COMMENT>
@@ -246,23 +240,6 @@
       <Naming2>
         <EventHandlerPatternLong>$object$_On$event$</EventHandlerPatternLong>
         <EventHandlerPatternShort>$event$Handler</EventHandlerPatternShort>
-        <OverrideDefaultSettings>True</OverrideDefaultSettings>
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="TypesAndNamespaces" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="Interfaces" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="TypeParameters" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aa_bb" ElementKind="MethodPropertyEvent" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aa_bb" ElementKind="Locals" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aa_bb" ElementKind="LocalConstants" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aa_bb" ElementKind="Parameters" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aa_bb" ElementKind="PublicFields" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aa_bb" ElementKind="PrivateInstanceFields" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aa_bb" ElementKind="PrivateStaticFields" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aa_bb" ElementKind="Constants" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aa_bb" ElementKind="PrivateConstants" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aa_bb" ElementKind="StaticReadonly" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aa_bb" ElementKind="PrivateStaticReadonly" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="aa_bb" ElementKind="EnumMember" />
-        <PredefinedRule Inspect="True" Prefix="" Suffix="" Style="AaBb" ElementKind="Other" />
       </Naming2>
     </CSharp>
     <VB>
