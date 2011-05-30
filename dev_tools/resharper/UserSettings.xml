@@ -82,7 +82,6 @@
     <FileTemplates>
       <FileTemplate file="C:\Users\jp\repositories\developwithpassion\devtools\windows\resharper\templates\live_templates_general.xml" />
       <FileTemplate file="C:\Users\jp\repositories\developwithpassion\devtools\windows\resharper\templates\live_templates_machine_specifications.xml" />
-      <FileTemplate file="C:\Users\jp\repositories\developwithpassion\devtools\windows\resharper\templates\live_templates_developwithpassion_specifications.xml" />
     </FileTemplates>
     <DisabledTemplates>
       <TemplateReference uid="b1949918-f3be-4271-859d-5fe23f749bf9" name="&lt;No Name&gt;" />
@@ -108,7 +107,6 @@
         <TemplateReference uid="bfed504b-c6a2-492a-8098-6067ce44f7ca" name="lock" />
         <TemplateReference uid="ce403579-55e1-4d4d-869c-de09fe5bf5a5" name="namespace" />
         <TemplateReference uid="2025ca6a-c03e-4da6-ab1b-a4e6c572a94a" name="()" />
-        <TemplateReference uid="2ca8bd79-c73f-4123-b2e5-8aa5b58ec3be" name="Explicit Delegate Block" />
         <Removed />
       </QuickList>
       <QuickList name="Visual Basic files">
@@ -143,9 +141,7 @@
     <PredefinedChanges>
       <Changed />
     </PredefinedChanges>
-    <FileTemplates>
-      <FileTemplate file="C:\Users\jp\repositories\developwithpassion\devtools\windows\resharper\templates\surround_templates_general.xml" />
-    </FileTemplates>
+    <FileTemplates />
   </SurroundManager>
   <ContextActions>
     <JetBrains.ReSharper.Intentions.CSharp.ContextActions.NonI18n.CSharpSurroundWithQuotesAction>False</JetBrains.ReSharper.Intentions.CSharp.ContextActions.NonI18n.CSharpSurroundWithQuotesAction>
@@ -199,7 +195,7 @@
     </PredefinedChanges>
     <FileTemplates>
       <FileTemplate file="C:\Users\jp\repositories\developwithpassion\devtools\windows\resharper\templates\file_templates_general.xml" />
-      <FileTemplate file="C:\Users\jp\repositories\developwithpassion\devtools\windows\resharper\templates\file_templates_developwithpassion_specifications_moq.xml" />
+      <FileTemplate file="C:\Users\jp\repositories\developwithpassion\devtools\windows\resharper\templates\file_templates_machine_specifications.xml" />
     </FileTemplates>
   </FileTemplatesManager>
   <CodeStyleSettings>

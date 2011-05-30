@@ -19,4 +19,16 @@
     </Variables>
     <CustomProperties />
   </Template>
+  <Template uid="4a409305-165b-4329-a8bb-7bcc2064f891" shortcut="oc" description="Observations With Contract" text="public class when_$spec_name$$base$ &#xD;&#xA;{&#xD;&#xA;  It should_$observation$ = () =&gt;&#xD;&#xA;    $END$&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="spec_name" expression="" initialRange="0" />
+      <Variable name="base" expression="" initialRange="0" />
+      <Variable name="observation" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
 </TemplatesExport>
